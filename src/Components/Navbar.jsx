@@ -1,12 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
   return (
-    <main >
-        
-        
-        
-        </main>
+    <main>
+        Navbar</main>
   )
 }
 
