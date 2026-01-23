@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 
 const Navbar = () => {
   return (
-    <main>
-        Navbar</main>
+    <main className='py-6 px-10 '>
+        
+
+        </main>
   )
 }
 
