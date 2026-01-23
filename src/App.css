@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+:root {
+
+        primary-color: #00040f;
+        secondary: #00f6ff;
+        dimwhite: rgba("225, 225, 225, 0.7");
+        dimBlue: rgba("9, 151, 124, 0.1")
+}
