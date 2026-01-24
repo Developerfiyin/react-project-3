@@ -4,7 +4,6 @@
 @import "tailwindcss";
 
 :root {
-
        --primary: #00040f;
         --secondary: #00f6ff;
         --dimwhite: rgba("225, 225, 225, 0.7");
@@ -15,7 +14,7 @@
         --md: "1060px";
         --xl: "1200px";
 
-         --black-gradient: linear-gradient(
+     --black-gradient: linear-gradient(
             144.39deg,
              #ffff -278.56%,
          #6d6d6d -78.47%,
@@ -151,3 +150,4 @@ background: linear-gradient(
       background: linear-gradient(180deg, rgba(225, 225, 225, 0.6) 0%, #214d76 100% );                                                                                                                                         
     filter: blur(750px);
 }
+
