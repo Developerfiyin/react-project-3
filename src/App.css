@@ -13,6 +13,19 @@
         --sm: "768px";
         --md: "1060px";
         --xl: "1200px";
+
+         --black-gradient: linear-gradient(
+            144.39deg,
+             #ffff -278.56%,
+         #6d6d6d -78.47%,
+             #110d1d 91.29%
+        ); 
+
+        --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+*{
+    scroll-behavior: smooth;
 }
 
 body {
