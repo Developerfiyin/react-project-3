@@ -19,3 +19,64 @@ body {
     font-family: 'Poppins, sans-serif';
 }
 
+
+
+@-webkit-keyframes slide-top {
+     0% {
+        -webkit-animation: backwards;
+        -webkit-transform: translateX(100px);
+        transform: translateY(100px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-animation: backwards;
+        -webkit-transform: translateX(100px);
+        transform: translateY(100px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateY(0);
+    }
+}
+
+
+
+.feature-card {
+    background: var(--black-gradient);
+    box-shadow: var(--card-shadow);
+}
+
+.feedback-container .feedback-card:nth-child{
+    margin: 0px;
+}
+
+.feeback:hover{
+  background: var(--black-gradient);
+}
+
+.feedback {
+    background: transparent;
+}
+
+
+
+.blue__gradient {
+     background: linear-gradient(180deg, rgba(185, 165, 225, 0) 0%, #214d76 100% );                                                                                                                                         
+    filter: blur(123px);
+}
+
+.pink__gradient {
+      background: linear-gradient(90deg, #f4c4f4,  0%, #c467c4 100% );                                                                                                                                         
+    filter: blur(900px);
+}
+
+.white__gradient {
+      background: linear-gradient(180deg, rgba(225, 225, 225, 0.6) 0%, #214d76 100% );                                                                                                                                         
+    filter: blur(750px);
+}
